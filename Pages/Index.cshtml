@@ -1,0 +1,262 @@
+﻿@page
+@model IndexModel
+@{
+ViewData["Title"] = "Home page";
+}
+
+@* <div class="text-center">
+	<h1 class="display-4">Welcome</h1>
+	<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div> *@
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+	<!-- Content Header (Page header) -->
+	<div class="content-header">
+		<div class="container-fluid">
+			<div class="row mb-2">
+				<div class="col-sm-6">
+					<h1 class="m-0 text-dark">Dashboard Admin Pusat</h1>
+					<h6 class="m-0 text-dark mt-2">Kamis, 5 Maret 2020</h6>
+				</div><!-- /.col -->
+				<div class="col-sm-6">
+					<ol class="breadcrumb float-sm-right">
+						<li class="breadcrumb-item"><a href="#" class="text-info">Home</a></li>
+						<li class="breadcrumb-item active">Dashboard Admin Pusat</li>
+					</ol>
+				</div><!-- /.col -->
+			</div><!-- /.row -->
+		</div><!-- /.container-fluid -->
+	</div>
+	<!-- /.content-header -->
+
+	<!-- Main content -->
+	<section class="content">
+		<div class="container-fluid">
+			<!-- Info boxes -->
+
+			<div class="dropdown-divider"></div>
+
+			<div class="row mb-2">
+				<div class="col-sm-12">
+					<h4 class="m-0 text-dark">Permintaan Pelayanan Hari Ini</h4>
+					<h6 class="m-0 text-dark mt-2">Kamis, 5 Maret 2020</h6>
+				</div><!-- /.col -->
+			</div><!-- /.row -->
+
+			<div class="row">
+				<div class="col-12 col-sm-4 col-md-4">
+					<div class="info-box">
+						<span class="info-box-icon bg-info elevation-1"><i class="fas fa-laptop-code"></i></span>
+
+						<div class="info-box-content">
+							<span class="info-box-text">Unit IT</span>
+							<span class="info-box-number">
+								90
+							</span>
+						</div>
+						<!-- /.info-box-content -->
+					</div>
+					<!-- /.info-box -->
+				</div>
+				<!-- /.col -->
+				<div class="col-12 col-sm-4 col-md-4">
+					<div class="info-box mb-3">
+						<span class="info-box-icon bg-info elevation-1"><i class="fas fa-user-tie"></i></span>
+
+						<div class="info-box-content">
+							<span class="info-box-text">Unit IPS</span>
+							<span class="info-box-number">999</span>
+						</div>
+						<!-- /.info-box-content -->
+					</div>
+					<!-- /.info-box -->
+				</div>
+				<!-- /.col -->
+
+				<!-- fix for small devices only -->
+				<div class="clearfix hidden-md-up"></div>
+
+				<div class="col-12 col-sm-4 col-md-4">
+					<div class="info-box mb-3">
+						<span class="info-box-icon bg-info elevation-1"><i class="fas fa-user-md"></i></span>
+
+						<div class="info-box-content">
+							<span class="info-box-text">Unit ITP</span>
+							<span class="info-box-number">999</span>
+						</div>
+						<!-- /.info-box-content -->
+					</div>
+					<!-- /.info-box -->
+				</div>
+				<!-- /.col -->
+			</div>
+			<!-- /.row -->
+
+			<div class="dropdown-divider"></div>
+
+			<div class="row mb-2">
+				<div class="col-sm-12">
+					<h4 class="m-0 text-dark">Penanganan Permintaan Hari Ini</h4>
+					<h6 class="m-0 text-dark mt-2">Kamis, 5 Maret 2020</h6>
+				</div><!-- /.col -->
+			</div><!-- /.row -->
+
+			<div class="row mb-4">
+				<div class="col-12 col-sm-4 col-md-4">
+					<div class="info-box">
+						<span class="info-box-icon bg-info elevation-1"><i class="fas fa-laptop-code"></i></span>
+
+						<div class="info-box-content">
+							<span class="info-box-text">Unit IT</span>
+							<span class="info-box-number">
+								90
+							</span>
+						</div>
+						<!-- /.info-box-content -->
+					</div>
+					<!-- /.info-box -->
+				</div>
+				<!-- /.col -->
+				<div class="col-12 col-sm-4 col-md-4">
+					<div class="info-box mb-3">
+						<span class="info-box-icon bg-info elevation-1"><i class="fas fa-user-tie"></i></span>
+
+						<div class="info-box-content">
+							<span class="info-box-text">Unit IPS</span>
+							<span class="info-box-number">999</span>
+						</div>
+						<!-- /.info-box-content -->
+					</div>
+					<!-- /.info-box -->
+				</div>
+				<!-- /.col -->
+
+				<!-- fix for small devices only -->
+				<div class="clearfix hidden-md-up"></div>
+
+				<div class="col-12 col-sm-4 col-md-4">
+					<div class="info-box mb-3">
+						<span class="info-box-icon bg-info elevation-1"><i class="fas fa-user-md"></i></span>
+
+						<div class="info-box-content">
+							<span class="info-box-text">Unit ITP</span>
+							<span class="info-box-number">999</span>
+						</div>
+						<!-- /.info-box-content -->
+					</div>
+					<!-- /.info-box -->
+				</div>
+				<!-- /.col -->
+			</div>
+			<!-- /.row -->
+
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="card">
+						<div class="card-header border-0">
+							<div class="d-flex justify-content-between">
+								<h3 class="card-title">Laporan Aktifitas | Line Chart</h3>
+								<a href="javascript:void(0);">View Report</a>
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="d-flex">
+								<p class="d-flex flex-column">
+									<span class="text-bold text-lg">820</span>
+									<span>Visitors Over Time</span>
+								</p>
+								<p class="ml-auto d-flex flex-column text-right">
+									<span class="text-success">
+										<i class="fas fa-arrow-up"></i> 12.5%
+									</span>
+									<span class="text-muted">Since last week</span>
+								</p>
+							</div>
+							<!-- /.d-flex -->
+
+							<div class="position-relative mb-4">
+								<div class="chartjs-size-monitor">
+									<div class="chartjs-size-monitor-expand">
+										<div class=""></div>
+									</div>
+									<div class="chartjs-size-monitor-shrink">
+										<div class=""></div>
+									</div>
+								</div>
+								<canvas id="visitors-chart" height="250" width="451" class="chartjs-render-monitor"
+									style="display: block; height: 200px; width: 361px;"></canvas>
+							</div>
+
+							<div class="d-flex flex-row justify-content-end">
+								<span class="mr-2">
+									<i class="fas fa-square text-primary"></i> This Week
+								</span>
+
+								<span>
+									<i class="fas fa-square text-gray"></i> Last Week
+								</span>
+							</div>
+						</div>
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-md-6 -->
+				<div class="col-lg-6">
+					<div class="card">
+						<div class="card-header border-0">
+							<div class="d-flex justify-content-between">
+								<h3 class="card-title">Laporan Aktifitas | Bar Chart</h3>
+								<a href="javascript:void(0);">View Report</a>
+							</div>
+						</div>
+						<div class="card-body">
+							<div class="d-flex">
+								<p class="d-flex flex-column">
+									<span class="text-bold text-lg">$18,230.00</span>
+									<span>Sales Over Time</span>
+								</p>
+								<p class="ml-auto d-flex flex-column text-right">
+									<span class="text-success">
+										<i class="fas fa-arrow-up"></i> 33.1%
+									</span>
+									<span class="text-muted">Since last month</span>
+								</p>
+							</div>
+							<!-- /.d-flex -->
+
+							<div class="position-relative mb-4">
+								<div class="chartjs-size-monitor">
+									<div class="chartjs-size-monitor-expand">
+										<div class=""></div>
+									</div>
+									<div class="chartjs-size-monitor-shrink">
+										<div class=""></div>
+									</div>
+								</div>
+								<canvas id="sales-chart" height="250" style="display: block; height: 200px; width: 361px;" width="451"
+									class="chartjs-render-monitor"></canvas>
+							</div>
+
+							<div class="d-flex flex-row justify-content-end">
+								<span class="mr-2">
+									<i class="fas fa-square text-primary"></i> This year
+								</span>
+
+								<span>
+									<i class="fas fa-square text-gray"></i> Last year
+								</span>
+							</div>
+						</div>
+					</div>
+					<!-- /.card -->
+				</div>
+				<!-- /.col-md-6 -->
+			</div>
+
+		</div>
+		<!--/. container-fluid -->
+	</section>
+	<!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
